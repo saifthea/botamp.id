@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+build/
+*.log
+
+# Environment
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup
+backup_*/
+hasil export/
+xlsx_tmp/
+*.xlsx
+*.csv
+*.json
+*.zip
+*.gz
+*.txt
+*.py
+*.js
+*.mjs
+*.ps1
+*.bat
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.ico
+*.mp4
+*.gif
+
+# Diagnostics
+*.nft.json
+*.map
+trace
+trace-build

@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = ".next/output/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Next.js runtime configuration for Netlify
+[[plugins]]
+  package = "@netlify/next"
+
+[plugins.settings]
+  # Optional: exclude images from netlify functions if using image optimization
+  # persist = ["/.next/cache/images"]
