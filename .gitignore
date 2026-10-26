@@ -10,11 +10,14 @@ out/
 build/
 *.log
 
-# Environment
-.env.local
-.env.development.local
-.env.production.local
-.env.test.local
+# Environment & Sensitive Files
+.env*
+!.env.example
+serviceAccountKey.json
+pass*.txt
+API key*.txt
+*.key
+*.pem
 
 # TypeScript
 *.tsbuildinfo
@@ -30,19 +33,14 @@ next-env.d.ts
 .DS_Store
 Thumbs.db
 
-# Backup
+# Backup & Temporary files
 backup_*/
 hasil export/
 xlsx_tmp/
 *.xlsx
 *.csv
-*.json
 *.zip
 *.gz
-*.txt
-*.py
-*.js
-*.mjs
 *.ps1
 *.bat
 *.docx
@@ -52,9 +50,10 @@ xlsx_tmp/
 *.ico
 *.mp4
 *.gif
-
-# Diagnostics
+*.tmp
 *.nft.json
 *.map
 trace
 trace-build
+dev.err
+dev.log
